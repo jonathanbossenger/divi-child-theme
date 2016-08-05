@@ -1,9 +1,15 @@
 /*
  Theme Name:     Divi Child Theme
  Theme URI:      http://jonathanbossenger.com/
- Description:    A selection of Divi Child Theme solutions
+ Description:    A selection of Divi Child Theme solutions. This file is not to be used as a child theme, but to pick and choose solutions from
  Author:         Jonathan Bossenger
  Author URI:     http://jonathanbossenger.com/
  Template:       Divi
  Version:        1.0.0
 */
+
+/* remove border from category list view */
+.et_right_sidebar #main-content .container:before {
+    width:0 !important;
+}
+/* remove border from category list view */
